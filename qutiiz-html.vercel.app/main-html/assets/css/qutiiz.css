@@ -3571,6 +3571,7 @@ ul {
 # Testimonial One
 --------------------------------------------------------------*/
 .testimonial-one {
+  margin-top: 300px;
   position: relative;
   display: block;
   background-color: #f6f4f9;
@@ -11836,4 +11837,15 @@ body.boxed-wrapper {
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.08);
+}
+.mycss p{
+  display: inline-block;
+  margin-left: 500px;
+}
+.mycss img{
+  margin-bottom: 100px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 90px;
+  border-radius: 50%;
 }
