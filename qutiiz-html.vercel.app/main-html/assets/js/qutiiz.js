@@ -1,3 +1,4 @@
+console.log('jitender chutiya h');
 (function ($) {
   "use strict";
 
