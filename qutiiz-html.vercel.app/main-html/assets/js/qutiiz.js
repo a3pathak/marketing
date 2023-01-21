@@ -1,4 +1,4 @@
-console.log('jitender chutiya h');
+console.log('kashish chutiya h');
 (function ($) {
   "use strict";
 
