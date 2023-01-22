@@ -4750,8 +4750,8 @@ ul {
 .footer-widget__explore {
   position: relative;
   display: block;
-  margin-left: 70px;
-  margin-right: -5px;
+  margin-left: 188px;
+  margin-right: -351px;
 }
 
 .footer-widget__explore-list {
@@ -4799,9 +4799,10 @@ ul {
   position: relative;
   display: block;
   background-color: #000000;
-  margin-left: 50px;
+  margin-right: -267px;
+  margin-left: 326px;
   padding: 41px 50px 41px;
-  margin-top: 8px;
+  margin-top: 34px;
   border-radius: var(--qutiiz-bdr-radius);
   border: 1px solid rgba(var(--qutiiz-white-rgb), 0.1);
 }
