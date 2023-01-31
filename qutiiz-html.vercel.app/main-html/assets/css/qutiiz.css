@@ -373,12 +373,21 @@ ul {
   float: left;
 }
 
+.logo{
+  height: 60px;
+  width: 60px;
+  position: relative;
+  float: left;
+  padding-bottom: 37px;
+  margin-right: 205px;
+}
+
 .main-menu-wrapper__logo {
   position: relative;
   float: left;
-  padding-top: 37px;
   padding-bottom: 37px;
   margin-right: 205px;
+  
 }
 
 .main-menu-wrapper__main-menu {
@@ -1550,7 +1559,7 @@ ul {
   transform: translateY(120px);
   transition-delay: 1000ms;
   transition: transform 2000ms ease, opacity 2000ms ease;
-  font-size: 130px;
+  font-size: 100px;
   line-height: 100px;
   text-transform: uppercase;
   font-weight: 400;
@@ -2455,7 +2464,7 @@ ul {
   line-height: 30px;
   font-weight: 500;
   counter-increment: count;
-  content: "0"counter(count);
+  
   transition: all 200ms linear;
   transition-delay: 0.1s;
   font-family: var(--qutiiz-font-two);
@@ -3044,8 +3053,8 @@ ul {
 .counter-one {
   position: relative;
   display: block;
-  background-color: var(--qutiiz-base);
-  padding: 120px 0 280px;
+  background-color: #180339;
+  padding: 120px 0 0px;
   overflow: hidden;
   z-index: 1;
 }
@@ -3197,7 +3206,7 @@ ul {
 .why-choose-one {
   position: relative;
   display: block;
-  margin-top: -200px;
+  margin-top: -300px;
   z-index: 1;
 }
 
@@ -3571,6 +3580,7 @@ ul {
 # Testimonial One
 --------------------------------------------------------------*/
 .testimonial-one {
+  margin-top: 300px;
   position: relative;
   display: block;
   background-color: #f6f4f9;
@@ -4740,8 +4750,8 @@ ul {
 .footer-widget__explore {
   position: relative;
   display: block;
-  margin-left: 70px;
-  margin-right: -5px;
+  margin-left: 188px;
+  margin-right: -351px;
 }
 
 .footer-widget__explore-list {
@@ -4789,9 +4799,10 @@ ul {
   position: relative;
   display: block;
   background-color: #000000;
-  margin-left: 50px;
+  margin-right: -267px;
+  margin-left: 326px;
   padding: 41px 50px 41px;
-  margin-top: 8px;
+  margin-top: 34px;
   border-radius: var(--qutiiz-bdr-radius);
   border: 1px solid rgba(var(--qutiiz-white-rgb), 0.1);
 }
@@ -11836,4 +11847,102 @@ body.boxed-wrapper {
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.08);
+}
+.mycss p{
+  display: inline-block;
+  margin-left: 328px;
+}
+.mycss img{
+  margin-bottom: 100px;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+  
+}
+.block {
+	position: relative;
+	
+	width: 1245px;
+	height: 230px;
+   border-radius: 50%;
+	background: linear-gradient(0deg, #000, #272727);
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+   border-radius: 50%;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(50px);
+}
+
+.jump-anim {
+	animation-name: fetureanimate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-name: fetureanimate;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: fetureanimate;
+	-moz-animation-duration: 3s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: fetureanimate;
+	-ms-animation-duration: 3s;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	-o-animation-name: fetureanimate;
+	-o-animation-duration: 3s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear
+}
+
+@keyframes fetureanimate {
+	0%, 100% {
+		-webkit-transform: translateY(-40px);
+		transform: translateY(-40px)
+	}
+
+	50% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px)
+	}
+
+}
+
+.subscribe-section {
+	position: relative
+}
+
+.subscribe-section:before {
+	position: absolute;
+	top: 50%;
+	background: #f8f8f8
 }
