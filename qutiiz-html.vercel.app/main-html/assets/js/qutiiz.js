@@ -1,4 +1,3 @@
-console.log('kashish chutiya h');
 (function ($) {
   "use strict";
 
