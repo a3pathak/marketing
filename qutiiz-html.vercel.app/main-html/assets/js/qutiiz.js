@@ -1,4 +1,4 @@
-console.log('jitender');
+console.log('jitender editor');
 (function ($) {
   "use strict";
 
