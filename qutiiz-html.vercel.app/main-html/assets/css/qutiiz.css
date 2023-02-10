@@ -32,6 +32,16 @@
   --qutiiz-bdr-radius: 8px;
 }
 
+@media screen and (max-width: 480px) {
+ .mycss{
+ width: 230px;
+  }
+
+
+}
+
+
+
 .row {
   --bs-gutter-x: 30px;
 }
@@ -11864,7 +11874,7 @@ body.boxed-wrapper {
 .block {
 	position: relative;
 	
-	width: 1245px;
+	width: 230px;
 	height: 230px;
    border-radius: 50%;
 	background: linear-gradient(0deg, #000, #272727);
