@@ -11911,6 +11911,25 @@ body.boxed-wrapper {
 	filter: blur(50px);
 }
 
+@media screen and (max-width: 480px) {
+  .mycss {
+    width: 230px;
+    margin-left: 18%;
+  }
+  .media {
+    width: 100%;
+    flex-direction: column;
+  }
+  .red {
+    align-items: left;
+    justify-content: left;
+  }
+
+  .jump-anim {
+    display: none;
+  }
+}
+
 .jump-anim {
 	animation-name: fetureanimate;
 	animation-duration: 3s;
